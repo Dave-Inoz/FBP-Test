@@ -62,3 +62,74 @@ Any help you provide is greatly appreciated.<br>
   </body>
 </html>
 <hr>
+
+<!-------------
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click to Zoom-in example.</title>
+       <center>
+
+<hr>
+    <style>
+       .images   {
+            width: 120px;  /* thumbnail pic width */
+            height: 120px;  /* thumbnail pic height */
+        }
+        body {
+            background-color: rgb(235, 233, 233);
+        }
+        .fullsize {
+            border: 3px solid black; /* zoomed pic border */
+            z-index: 999; /* */
+            cursor: zoom-out; /* */
+            display: block; /* */
+            width: 240px; /*zoomed pic width*/
+            max-width: 240px; /*max zoomed pic width?*/
+            height: 200px; /*zoomed pic width*/
+            position: fixed; /* */
+            left: 100; /* */
+            top: 140px; /*zoomed pic position*/
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Click a thumbnail pic to zoom-in, then click the larger pic to zoom-out.</h1>
+    <div id="gallery">
+
+        <img src="https://yoursmiles.org/ismile/flag3/flag03031.jpg" border="1" class="images" onclick="change(this)">  
+        <img src="https://yoursmiles.org/ismile/flag3/flag03052.jpg" border="1" class="images" onclick="change(this)">  
+        <img src="https://yoursmiles.org/ismile/flag3/flag03051.jpg" border="1" class="images" onclick="change(this)"> <br>
+        <img src="https://yoursmiles.org/ismile/flag3/flag03052.jpg" border="1" class="images" onclick="change(this)">  
+        <img src="https://yoursmiles.org/ismile/flag3/flag03051.jpg" border="1" class="images" onclick="change(this)">  
+        <img src="https://yoursmiles.org/ismile/flag3/flag03031.jpg" border="1" class="images" onclick="change(this)"> <br>
+        <img src="https://yoursmiles.org/ismile/flag3/flag03031.jpg" border="1" class="images" onclick="change(this)">  
+        <img src="https://yoursmiles.org/ismile/flag3/flag03052.jpg" border="1" class="images" onclick="change(this)">  
+        <img src="https://yoursmiles.org/ismile/flag3/flag03051.jpg" border="1" class="images" onclick="change(this)"> <br>
+
+</div>
+    <script>
+        function change(element) {
+             element.classList.toggle("fullsize")
+        }
+    </script>
+
+<hr>
+<b>I'd like to have this Zoom-in effect in a gallery of thumbnail pics, but with the larger zoomed-in pic appearing over the clicked thumbnail pic, and with the thumbnail pics not disappearing at any stage. <br>
+Any help you provide is greatly appreciated.<br>
+~ ACEinOZ.</b>
+<hr>
+    
+      </center>
+
+  </body>
+</html>
+<hr>
+--------->
+
+
+
+ 
